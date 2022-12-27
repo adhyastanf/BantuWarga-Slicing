@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <title>Bantu Warga</title>
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header class="px">
+      <div class="container-header">
+        <img src="assets/icon.png" alt="" />
+        <nav>
+          <ul class="hidden" id="menu">
+            <i class="fa-solid fa-x" style="display: none; color: white" id="close-btn" onclick="toogleMenuClose()"></i>
+            <li><a href="/" class="text-blue">Home</a></li>
+            <li><a href="/pricing"> Pricing </a></li>
+            <li><a href="/about"> About </a></li>
+            <li><a href="/contact"> Contact </a></li>
+          </ul>
+          <div class="flex" style="gap: 10px">
+            <i class="fa fa-bars" style="display: none" id="menu-btn" onclick="toogleMenu()"></i>
+            <button>See Demo</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- main  -->
+    <main style="overflow: hidden; padding-bottom: 32px">
+      <div class="px">
+        <div class="container">
+          <section style="position: relative; display: flex; margin-bottom: 42px">
+            <!-- hero  -->
+            <div style="position: absolute; right: inherit; right: 0; width: 50%">
+              <img src="assets/background.png" alt="hero" draggable="false" />
+            </div>
+            <!-- left-content  -->
+            <div style="margin-top: 232px; margin-bottom: 349px; width: 50%; position: relative; z-index: 99px">
+              <img src="assets/hero-heading.png" alt="" />
+              <p>Aplikasi Bantu warga merupakan aplikasi berbasis mobile dengan konsep kesehatan yang berkaitan dengan keadaan covid sekarang</p>
+              <div>
+                <input type="text" />
+              </div>
+            </div>
+
+            <!-- end-section  -->
+          </section>
+
+          <!-- new section -->
+          <section class="section-2">
+            <h1 class="heading-3" style="text-align: center; position: relative; z-index: 99">What's <span class="heading-blue">Bantu Warga</span></h1>
+            <p class="p-3" style="max-width: 543px; text-align: center; margin-left: auto; margin-right: auto">Aplikasi Bantu warga disini anda bisa melihat keadaan pandemi covid di Indonesia dari penyebaran covid , berita , data</p>
+
+            <!-- card  -->
+            <div class="grid-card">
+              <div class="card">
+                <img src="assets/card-icon1.svg" alt="" />
+                <h2 class="heading-2">Donor Darah</h2>
+                <p>Cek ketersediaan donor darah atau mau donor darah</p>
+              </div>
+              <div class="card">
+                <img src="assets/card-icon3.svg" alt="" />
+                <h2 class="heading-2">Donasi uang</h2>
+                <p>Bantu teman - teman kita yang sedang mengalami kesulitan finansial</p>
+              </div>
+
+              <div class="card">
+                <img src="assets/card-icon3.svg" alt="" />
+                <h2 class="heading-2">Donasi alat medis</h2>
+                <p>Bantu para nakes yang sedang berjuang melawan pandemi</p>
+              </div>
+
+              <div class="card">
+                <img src="assets/card-icon4.svg" alt="" />
+                <h2 class="heading-2">Donasi Vitamin</h2>
+                <p>Bantu teman - teman kita yang sedang mengalami sakit</p>
+              </div>
+
+              <div class="card">
+                <img src="assets/card-icon5.svg" alt="" />
+                <h2 class="heading-2">Cek vaksinasi</h2>
+                <p>Cek ketersediaan vaksin dan lokasi vaksinasi di dekat lokasi anda</p>
+              </div>
+
+              <div class="card">
+                <img src="assets/card-icon6.svg" alt="" />
+                <h2 class="heading-2">Ketersediaan ambulance</h2>
+                <p>Cek ketersediaan ambulan dan lokasi rumah sakit yang menyediakan</p>
+              </div>
+            </div>
+            <button>load more</button>
+          </section>
+
+          <!-- new section  -->
+
+          <section class="grid" id="section-3" style="place-items: center">
+            <div>
+              <img src="assets/informasi.png" alt="" srcset="" width="100%" />
+            </div>
+            <div>
+              <span class="text-blue" style="font-weight: 600; margin-bottom: 16px; display: inline-block">Download Now</span>
+              <h1 class="heading-3">Get <span class="text-blue">The App</span></h1>
+              <p style="margin-bottom: 32px">Aplikasi kami tersedia di play store , app store , anda dapat langsung mendownloadnya secara gratis dan nikmati fitur aplikasi yang sudah kami sediakan</p>
+              <img src="assets/google-play.svg" alt="" />
+              <img src="assets/app-store.svg" alt="" />
+            </div>
+          </section>
+
+          <!-- new section  -->
+          <section id="section-4" style="padding-top: 80px; padding-bottom: 96px">
+            <p class="text-blue" style="font-weight: 600; margin-bottom: 16px">Information</p>
+            <div class="grid" style="row-gap: 64px">
+              <div>
+                <h1 class="heading-3" style="margin-bottom: 36px">Covid <span class="text-blue"> Information </span></h1>
+                <div style="margin-bottom: 44px">
+                  <h2 style="margin-bottom: 16px">Informasi tepat waktu</h2>
+                  <p>Informasi yang anda dapatkan selalu update oleh kami, karena kami mengutamakan informasi yang akurat dan cepat</p>
+                </div>
+                <div style="margin-bottom: 44px">
+                  <h2 style="margin-bottom: 16px">Informasi terpercaya</h2>
+                  <p>Informasi yang anda temukan dan baca dapat dipercaya adanya karena kami telah berkerja sama dengan para sukarelawan kami untuk membagi informasi yang benar adanya</p>
+                </div>
+                <div style="margin-bottom: 64px">
+                  <h2 style="margin-bottom: 16px">Informasi relevan</h2>
+                  <p>Informasi yang anda temukan dan baca dapat hanya tentang masalah kesehatan , tips - tips , pandemi covid , dan sejenisnya</p>
+                </div>
+                <button class="button">See Demo</button>
+              </div>
+              <div>
+                <img src="assets/covid-information.svg" alt="" width="100%" />
+              </div>
+            </div>
+          </section>
+
+          <!-- new section -->
+          <section class="section-5" style="padding: 20px; position: relative; z-index: 99">
+            <!-- box contact -->
+            <div class="box-contact" style="background-color: white; padding: 60px; position: relative; z-index: 99">
+              <h2 class="text-blue" style="text-align: center">Contact</h2>
+              <h3 class="heading-2" id="leave">Leave us a message</h3>
+              <!-- left  -->
+              <div class="grid" style="gap: 60px">
+                <div style="display: flex; flex-direction: column">
+                  <input type="text" placeholder="your name" style="max-width: 100%" />
+                  <input type="email" placeholder=Email Addres" style="max-width: 100%;"/>
+                  <input type="text" height="100px" placeholder="Your Message" style="max-width: 100%" />
+                  <button class="button">Send</button>
+                </div>
+
+                <!-- right -->
+
+                <div>
+                  <p class="flex" style="margin-bottom: 24px; gap: 21px; align-items: flex-start"><img src="assets/location.svg" alt="" />Infomation technologies building , Kudus , Jawa tengah Indonesian</p>
+                  <p class="flex" style="margin-bottom: 24px; gap: 21px"><img src="assets/telephone.svg" alt="" />+021213414115151</p>
+                  <p class="flex" style="margin-bottom: 24px; gap: 21px"><img src="assets/email.svg" alt="" /> hello1234@info.com</p>
+                  <div class="sosmed-icon" style="margin-bottom: 27px">
+                    <img src="assets/youtube.svg" alt="" />
+                    <img src="assets/instagram.svg" alt="" />
+                    <img src="assets/facebook.svg" alt="" />
+                    <img src="assets/twitter.svg" alt="" />
+                  </div>
+                  <img src="assets/map.png" alt="" width="100%" />
+                </div>
+              </div>
+            </div>
+            <img src="assets/circle.svg" alt="" style="position: absolute; top: 0; right: 0" draggable="false" />
+            <img src="assets/circle.svg" alt="" style="position: absolute; bottom: 0; left: 0" draggable="false" />
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+
+    <footer class="px" style="overflow: hidden">
+      <div class="container">
+        <div class="flex" style="flex-wrap: wrap; margin-bottom: 94px; gap: 16px">
+          <div style="flex: 30%">
+            <img src="assets/icon-footer.svg" alt="" />
+            <p>Kami adalah aplikasi pelayanan masyarakat dalam kasus kesehatan terutama covid 19</p>
+          </div>
+          <div class="flex" style="gap: 70px; flex: 60%; justify-content: end;">
+            <ul>
+              <li>Tentang Kami</li>
+              <li>Tentang Kami</li>
+              <li>Fitur</li>
+            </ul>
+            <ul>
+              <li>Perusahaan</li>
+              <li>Perusahaan</li>
+              <li>Mitra Kami</li>
+            </ul>
+            <ul>
+              <li>Dukungan</li>
+              <li>Pusat Dukungan</li>
+              <li>Hubungan Kami</li>
+            </ul>
+          </div>
+        </div>
+        <div class="flex" style="justify-content: space-between">
+          <div class="flex footer-icon" style="gap: 40px">
+            <img src="assets/facebook-white.svg" alt="" />
+            <img src="assets/twitter-white.svg" alt="" />
+            <img src="assets/instagram-white.svg" alt="" />
+          </div>
+          <p>copyright BantuWarga. All right reserved</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // const menu = document.getElementById("menu-btn")
+      function toogleMenu() {
+        document.getElementById("menu").style.top = "0px";
+        document.getElementById("menu").style.transition = ".5s ease";
+        document.getElementById("menu").style.opacity = "1";
+      }
+      function toogleMenuClose() {
+        document.getElementById("menu").style.top = "-240px";
+        document.getElementById("menu").style.transition = ".5s ease";
+        document.getElementById("menu").style.opacity = "0";
+      }
+    </script>
+  </body>
+</html>
